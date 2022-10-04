@@ -5,7 +5,7 @@ body {
 
 h1 {
   color: rgb(0, 0, 0);
-  margin-left: 20px;
+  margin-left: 5px;
   margin-bottom: 5px;
   margin-top: 5px;
 }
@@ -17,35 +17,38 @@ h1 {
 }
 .box2 {
   background-color: bisque;
-  width: 200px;
-  height: 25px;
-}
-.box3 {
-  background-color: bisque;
   width: 800px;
-  height: 50px;
+  height: 100px;
 }
 
-.box4 {
+.box3 {
   background-color: bisque;
   width: 250px;
   height: 220px;
 }
+.box4 {
+  background-color: bisque;
+  width: 350px;
+  height: 100px;
+}
+
 .box5 {
   background-color: bisque;
-  width: 500px;
-  height: 150px;
+  width: 270px;
+  height: 40px;
 }
+
 .box6 {
   background-color: bisque;
   width: 600px;
   height: 100px;
 }
+
 h2 {
   background-color: bisque;
   background-size: contain;
   color: rgb(0, 0, 0);
-  margin-left: 20px;
+  margin-left: 5px;
 }
 h3 {
   background-color: bisque;
@@ -58,7 +61,7 @@ p {
   background-color: bisque;
   background-size: contain;
   color: rgb(0, 0, 0);
-  margin-left: 0px;
+  margin-left: 5px;
   font-family: sans-serif;
 }
 
@@ -97,4 +100,19 @@ a {
   background-color: bisque;
   background-size: contain;
   margin-bottom: 10px;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.rotate {
+  animation-name: rotation;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
