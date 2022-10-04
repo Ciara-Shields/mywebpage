@@ -1,6 +1,7 @@
 body {
   background-image: url(seamless-guitar.jpeg);
   background-size: 300px;
+  font-family: "Trebuchet MS";
 }
 
 h1 {
@@ -34,7 +35,7 @@ h1 {
 
 .box5 {
   background-color: bisque;
-  width: 270px;
+  width: 283px;
   height: 40px;
 }
 
@@ -62,7 +63,6 @@ p {
   background-size: contain;
   color: rgb(0, 0, 0);
   margin-left: 5px;
-  font-family: sans-serif;
 }
 
 table,
